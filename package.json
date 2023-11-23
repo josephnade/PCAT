@@ -1,27 +1,34 @@
 {
-  "devDependencies": {
-    "prettier": "3.1.0"
-  },
-  "name": "pcat",
-  "description": "PCAT is a photo web-site",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/josephnade/PCAT.git"
-  },
-  "keywords": [
-    "photo",
-    "camera",
-    "website"
-  ],
-  "author": "josephnade",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/josephnade/PCAT/issues"
-  },
-  "homepage": "https://github.com/josephnade/PCAT#readme"
+    "name": "pcat",
+    "description": "PCAT is a photo web-site",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/josephnade/PCAT.git"
+    },
+    "keywords": [
+        "photo",
+        "camera",
+        "website"
+    ],
+    "author": "josephnade",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/josephnade/PCAT/issues"
+    },
+    "homepage": "https://github.com/josephnade/PCAT#readme",
+    "devDependencies": {
+        "nodemon": "^3.0.1",
+        "prettier": "3.1.0"
+    },
+    "dependencies": {
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "mongoose": "^8.0.1"
+    }
 }
