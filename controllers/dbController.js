@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 // Connect DB
 async function connectionMongoDB() {
     try {
-        await mongoose.connect('mongodb://127.0.0.1/pcat-test-db', {
+        await mongoose.connect('mongodb+srv://josephnade:05369659190Yy@cluster.u1ra4eq.mongodb.net/', {
             serverSelectionTimeoutMS: 5000,
         });
         console.log('Veritabanına başarıyla bağlandı');
